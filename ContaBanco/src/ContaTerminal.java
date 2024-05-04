@@ -16,26 +16,25 @@ public class ContaTerminal {
 
         System.out.println("Por Favor, digite o Número da agência: ");
         Agencia = scanner.nextLine();
-        // System.out.println(Agencia);
+       
 
         System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
         System.out.println("Digite o número da conta: (Por Favor, insira apenas números. Sem traços ou Pontos.)"); // Estudar uma forma de fazer essa verificação
         Numero_Conta = scanner.nextInt();
-        // System.out.println(Numero_Conta);
+       
 
         System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
         System.out.println("Insira o Saldo atual do Cliente: (Caso hajam centavos, use a vírgula!)");
         saldo = scanner.nextDouble();
         scanner.nextLine();
-        // System.out.println(saldo);
-
+       
         System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
         System.out.println("Digite o Nome do Cliente: ");
         Nome_Cliente = scanner.nextLine();
-        //System.out.print(Nome_Cliente);
+        
 
         System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
