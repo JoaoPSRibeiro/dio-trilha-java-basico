@@ -17,13 +17,11 @@ public class ContaTerminal {
         System.out.println("Por Favor, digite o Número da agência: ");
         Agencia = scanner.nextLine();
        
-
         System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
         System.out.println("Digite o número da conta: (Por Favor, insira apenas números. Sem traços ou Pontos.)"); // Estudar uma forma de fazer essa verificação
         Numero_Conta = scanner.nextInt();
        
-
         System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
         System.out.println("Insira o Saldo atual do Cliente: (Caso hajam centavos, use a vírgula!)");
@@ -35,7 +33,6 @@ public class ContaTerminal {
         System.out.println("Digite o Nome do Cliente: ");
         Nome_Cliente = scanner.nextLine();
         
-
         System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
         System.out.println("Olá " + Nome_Cliente + ", obrigado por abrir sua conta no Banco JPS, sua Agência é: " + Agencia + ", seu número de conta é: " + Numero_Conta + ", com saldo incial e pronto para saque ou PIX no valor de R$ " + saldo);
